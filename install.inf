@@ -1,0 +1,15 @@
+[info]
+title=MediaWiki Code Tree
+desc=Supports Code Tree for MediaWiki lexer
+type=cudatext-plugin
+subdir=cuda_mediawiki_code_tree
+homepage=https://github.com/CudaText-addons/cuda_mediawiki_code_tree
+
+[item1]
+section=events
+events=on_change_slow
+lexers=MediaWiki
+
+[item2]
+section=events
+events=on_open,on_tab_change
